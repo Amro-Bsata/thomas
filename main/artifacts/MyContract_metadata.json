@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "meinFreund",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"main/songs.sol": "MyContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": [
+			":@openzeppelin/contracts/=contracts/"
+		]
+	},
+	"sources": {
+		"main/songs.sol": {
+			"keccak256": "0xb0261ca50754c9385a80daec6a5674f399ea15c41df541b6d3177eca27eb2aa5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eccc585403af06acce06d18672acab29fc2f44d154f9ddba75d3f11b93d6b2f3",
+				"dweb:/ipfs/QmTMjXsDdnaTCjrw1PXJSVjLTYQQNT3aiogTTSFmNo58qt"
+			]
+		}
+	},
+	"version": 1
+}
